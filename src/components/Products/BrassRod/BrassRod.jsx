@@ -37,18 +37,18 @@ const BrassRodCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2024/3/396391705/HQ/ST/KU/124968442/brass-bar-500x500.jpg",
       ],
       specifications: {
-        Thickness: "2 mm",
-        Color: "Golden",
-        Material: "Brass",
-        Shape: "T",
+        Thickness: "4mm to 100mm",
+        Color: "Golden Yellow",
+        Material: "Premium Brass Alloy",
+        Shape: "Round",
       },
       description:
-        "Brass is an alloy made of copper and zinc that is highly workable and provides excellent corrosion resistance. It has great aesthetic appeal, and as a result, has a wide range of decorative and functional applications. Because of its unique properties, it is one of the most widely used metals.",
+        "The Brass Round Bar offered by Rajlakshmi Metal is manufactured with precision and superior-quality brass alloy to meet a wide range of industrial and commercial applications. Known for its strength, excellent machinability, and corrosion resistance, this solid cylindrical bar is ideal for use in precision components, gears, valves, and general engineering purposes. Its golden-yellow finish adds aesthetic value, making it suitable for decorative and architectural elements as well. With excellent electrical conductivity and ease of fabrication, our Brass Round Bars are trusted by engineers, fabricators, and manufacturers across sectors.",
       features: [
-        "High Conductivity",
-        "Corrosion Resistant",
-        "Flexible",
-        "Durable",
+        "High Strength",
+        "Corrosion-Resistant",
+        "Machinable",
+        "Aesthetic Finish",
       ],
     },
     {
@@ -68,7 +68,7 @@ const BrassRodCategoryPage = () => {
         Brand: "Agarwal",
       },
       description:
-        "What are Brass Square Bars? Brass Square Bars are solid, square-shaped bars made from brass, an alloy of copper and zinc. Known for their strength, machinability, and resistance to corrosion, these bars are a preferred choice in various fabrication projects.",
+        "Our Brass Flat Bars are crafted using high-quality brass alloy for applications that demand both strength and versatility. With a flat rectangular profile, these bars are perfect for structural applications, decorative trims, and hardware manufacturing. At Rajlakshmi Metal, we ensure consistent thickness, excellent surface finish, and high tensile strength. Whether you need materials for fabrication, engraving, or mechanical parts, our Brass Flat Bars deliver superior performance with outstanding workability.",
       features: [
         "Lead-Free",
         "Antimicrobial",
@@ -93,7 +93,7 @@ const BrassRodCategoryPage = () => {
         Standard: "ANSI B16.5",
       },
       description:
-        "Brass is an alloy made of copper and zinc that is highly workable and provides excellent corrosion resistance. It has great aesthetic appeal, and as a result, has a wide range of decorative and functional applications. Because of its unique properties, it is one of the most widely used metals.",
+        "The Round Brass Rod from Rajlakshmi Metal is a solid, cylindrical rod made from high-conductivity brass alloy. It is widely used in electrical connectors, fasteners, engineering parts, and automotive applications due to its excellent machinability and durability. The smooth finish and uniform diameter make it suitable for high-precision applications. With exceptional resistance to moisture and corrosion, these rods are designed to perform even in demanding environments.",
       features: [
         "Precision Machined",
         "High Strength",

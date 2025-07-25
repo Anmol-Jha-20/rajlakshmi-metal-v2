@@ -272,13 +272,13 @@ function Footer() {
                 </div> */}
                 <div className="flex items-center space-x-2">
                   {" "}
-                  <div className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white rounded-sm px-3 py-2 font-bold text-sm uppercase tracking-wide">
+                  <div className="bg-[#D93361] text-white rounded-sm px-3 py-2 font-bold text-sm uppercase tracking-wide">
                     RAJLAKSHMI <br />
                     METAL{" "}
                   </div>{" "}
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+                  <h2 className="text-2xl font-bold bg-[#D93361] bg-clip-text text-transparent">
                     Rajlakshmi Metal Designs
                   </h2>
                   <p className="text-gray-400 text-sm">
@@ -291,14 +291,14 @@ function Footer() {
               <div className="space-y-4">
                 <div className="group">
                   <div className="flex items-start space-x-3 p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-                    <MapPin className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-1" />
+                    <MapPin className="w-5 h-5 text-[#D93361] flex-shrink-0 mt-1" />
                     <div>
                       <p className="text-gray-300 leading-relaxed text-sm">
                         {address}
                       </p>
                       <button
                         onClick={() => setShowMap(!showMap)}
-                        className="mt-2 inline-flex items-center space-x-1 text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors"
+                        className="mt-2 inline-flex items-center space-x-1 text-[#D93361] text-sm font-medium transition-colors"
                       >
                         <span>{showMap ? "Hide Map" : "View on Map"}</span>
                         <ExternalLink className="w-3 h-3" />
@@ -308,10 +308,10 @@ function Footer() {
                 </div>
 
                 <div className="flex items-center space-x-3 p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 group">
-                  <Phone className="w-5 h-5 text-cyan-400 flex-shrink-0" />
+                  <Phone className="w-5 h-5 text-[#D93361] flex-shrink-0" />
                   <a
                     href="tel:8904162990"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors font-medium"
+                    className="text-gray-300 hover:text-[#D93361] transition-colors font-medium"
                   >
                     (+91) 890 416 2990
                   </a>
@@ -320,7 +320,7 @@ function Footer() {
 
               {/* Social Media */}
               <div>
-                <h4 className="text-lg font-semibold mb-4 text-cyan-400">
+                <h4 className="text-lg font-semibold mb-4 text-[#D93361]">
                   Connect With Us
                 </h4>
                 <div className="flex space-x-4">
@@ -370,7 +370,7 @@ function Footer() {
                   onClick={() => toggleSection("products")}
                   className="flex items-center justify-between w-full text-left"
                 >
-                  <h3 className="text-lg font-semibold text-cyan-400 uppercase tracking-wide">
+                  <h3 className="text-lg font-semibold text-[#D93361] uppercase tracking-wide">
                     Products
                   </h3>
                   {expandedSection === "products" ? (
@@ -381,7 +381,7 @@ function Footer() {
                 </button>
               </div>
               <div className="hidden md:block">
-                <h3 className="text-lg font-semibold text-cyan-400 uppercase tracking-wide mb-4">
+                <h3 className="text-lg font-semibold text-[#D93361] uppercase tracking-wide mb-4">
                   Products
                 </h3>
               </div>
@@ -401,7 +401,7 @@ function Footer() {
                   <a
                     key={item}
                     href="#"
-                    className="block text-gray-300 hover:text-cyan-400 transition-colors duration-300 py-2 px-3 rounded-lg hover:bg-white/5 border-l-2 border-transparent hover:border-cyan-400"
+                    className="block text-gray-300 hover:text-[#D93361] transition-colors duration-300 py-2 px-3 rounded-lg hover:bg-white/5 border-l-2 border-transparent hover:border-[#D93361]"
                   >
                     {item}
                   </a>
@@ -416,7 +416,7 @@ function Footer() {
                   onClick={() => toggleSection("company")}
                   className="flex items-center justify-between w-full text-left"
                 >
-                  <h3 className="text-lg font-semibold text-cyan-400 uppercase tracking-wide">
+                  <h3 className="text-lg font-semibold text-[#D93361] uppercase tracking-wide">
                     Company
                   </h3>
                   {expandedSection === "company" ? (
@@ -427,7 +427,7 @@ function Footer() {
                 </button>
               </div>
               <div className="hidden md:block">
-                <h3 className="text-lg font-semibold text-cyan-400 uppercase tracking-wide mb-4">
+                <h3 className="text-lg font-semibold text-[#D93361] uppercase tracking-wide mb-4">
                   Company
                 </h3>
               </div>
@@ -447,7 +447,7 @@ function Footer() {
                   <a
                     key={item.text}
                     href={item.href}
-                    className="flex items-center space-x-3 text-gray-300 hover:text-cyan-400 transition-colors duration-300 py-2 px-3 rounded-lg hover:bg-white/5 group"
+                    className="flex items-center space-x-3 text-gray-300 hover:text-[#D93361] transition-colors duration-300 py-2 px-3 rounded-lg hover:bg-white/5 group"
                   >
                     <item.icon className="w-4 h-4 group-hover:scale-110 transition-transform" />
                     <span>{item.text}</span>
@@ -461,7 +461,7 @@ function Footer() {
           {showMap && (
             <div className="mt-12 transition-all duration-500 ease-in-out">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <h3 className="text-xl font-semibold mb-4 text-cyan-400">
+                <h3 className="text-xl font-semibold mb-4 text-[#D93361]">
                   Our Location
                 </h3>
                 <div className="w-full h-80 rounded-xl overflow-hidden shadow-2xl">
