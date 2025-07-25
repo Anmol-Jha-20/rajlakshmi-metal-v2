@@ -17,6 +17,7 @@ import {
   Minus,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../ScrollToTop.jsx";
 
 const BrassScrapCategoryPage = () => {
   const [selectedProduct, setSelectedProduct] = useState(0);
@@ -33,19 +34,14 @@ const BrassScrapCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2022/6/YX/QA/XE/124968442/new-product-500x500.jpeg",
       ],
       specifications: {
-        Thickness: "2 mm",
-        Color: "Golden",
-        Material: "Brass",
-        Shape: "T",
+        Thickness: "1 mm – 10 mm",
+        Color: "Golden Yellow",
+        Material: "Yellow Brass",
+        Shape: "Irregular/Fragmented",
       },
       description:
-        "ISRI Code - Honey Yellow Brass Scrap is a copper alloy that comprises of about 60-70% copper, 30-40% of zinc, tin and lead in traces. Yellow Brass Scrap must be free of iron, paint, plastic, washers, glass, etc. ISRI Code HONEY Brass Scrap appears yellowish in colour due to the presence of more zinc.",
-      features: [
-        "High Conductivity",
-        "Corrosion Resistant",
-        "Flexible",
-        "Durable",
-      ],
+        "Honey Brass Scrap is one of the most valuable and commonly traded types of yellow brass scrap in the recycling industry. At Rajlakshmi Metal, we offer premium-quality Honey Brass Scrap that includes clean, uncoated brass materials derived from plumbing fixtures, valves, mechanical parts, and industrial machinery. It is free from iron, non-metallics, or significant contamination, making it highly suitable for melting and reprocessing into high-grade brass components. This scrap is known for its high copper and zinc content, excellent conductivity, and corrosion resistance. Sourced sustainably and sorted meticulously, Honey Brass Scrap contributes to a more circular economy while delivering consistent alloying performance in foundries and smelters.",
+      features: ["Clean", "Reusable", "Recyclable", "Corrosion-resistant"],
     },
     {
       id: 2,
@@ -56,19 +52,15 @@ const BrassScrapCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2022/6/PB/QF/DK/124968442/brass-turning-boring-scrap-500x500.jpg",
       ],
       specifications: {
-        Size: "15 inch 20 kg",
-        Color: "Golden",
+        Size: "25–50 kg",
+        Thickness: "0.3 mm – 2 mm",
+        Color: "Dull Golden/Yellow",
         Material: "Brass",
-        Brand: "Agarwal",
+        Shape: "Spiral/Curled Turnings",
       },
       description:
-        "Premium brass sanitary pipe fittings for plumbing and water supply systems. Lead-free construction with antimicrobial properties. Designed for long-lasting performance in residential and commercial applications.",
-      features: [
-        "Lead-Free",
-        "Antimicrobial",
-        "Easy Installation",
-        "Leak-Proof",
-      ],
+        "Brass Turning Boring Scrap consists of fine, spiral or curled chips generated during the machining and turning of brass parts. At Rajlakshmi Metal, we supply clean and oil-free brass turnings collected directly from CNC machines, lathe workshops, and metal fabrication units. This form of scrap is ideal for direct melting and recycling in the production of cast brass alloys, fittings, and ingots. The high surface area of turnings ensures rapid melting and uniform alloy composition. Carefully sorted and packaged to eliminate ferrous or non-brass contamination, our brass turnings offer excellent value for foundries seeking efficient and environmentally friendly raw material.",
+      features: ["Machined", "High-yield", "Quick-melting", "Clean-sourced"],
     },
     {
       id: 3,
@@ -76,26 +68,21 @@ const BrassScrapCategoryPage = () => {
       price: 400,
       unit: "Kg",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2022/10/WQ/BO/BU/124968442/brass-t-patti-500x500.jpeg",
-        "https://5.imimg.com/data5/SELLER/Default/2022/10/JY/CI/GN/124968442/brass-t-patti-500x500.jpeg",
-        "https://5.imimg.com/data5/SELLER/Default/2022/10/JK/FY/XI/124968442/brass-t-patti-500x500.jpeg",
-        "https://5.imimg.com/data5/SELLER/Default/2022/10/IY/VM/TI/124968442/brass-stripe-patti-500x500.jpeg",
-        "https://5.imimg.com/data5/SELLER/Default/2022/10/XL/KX/IE/124968442/brass-stripe-patti-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2022/6/JT/MO/XG/124968442/brass-metal-scrap-500x500.jpg",
       ],
       specifications: {
-        Color: "Golden",
+        Color: "Yellow-Golden",
         Material: "Brass",
-        Shape: "Customised",
-        Thickness: "5mm to 20mm",
-        Standard: "ANSI B16.5",
+        Shape: "Pipes, rods, valves, sheets, and irregular offcuts",
+        Thickness: "2mm to 20mm",
       },
       description:
-        "Precision-engineered round brass flanges for industrial pipe connections. Manufactured to international standards with excellent dimensional accuracy. Suitable for high-pressure applications.",
+        "Brass Metal Scrap offered by Rajlakshmi Metal includes a wide assortment of recyclable brass material collected from industrial and commercial sources. This may include pipes, rods, sheets, plumbing parts, valves, gears, and obsolete fittings. Our scrap undergoes rigorous quality checks to ensure minimal contamination from other metals or coatings, making it ideal for reuse in the manufacturing of hardware, electrical components, and alloy castings. With excellent reusability, consistent composition, and reliable supply, our brass scrap provides a cost-effective and sustainable solution for brass recycling industries, foundries, and metal processing plants.",
       features: [
-        "Precision Machined",
-        "High Strength",
-        "Corrosion Resistant",
-        "Standard Sizes",
+        "Industrial-grade",
+        "Recyclable",
+        "Cost-effective",
+        "Consistent",
       ],
     },
   ];
@@ -115,6 +102,7 @@ const BrassScrapCategoryPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <ScrollToTop />
       {/* Breadcrumb */}
       <div className="bg-white py-4 border-b">
         <div className="container mx-auto px-4">

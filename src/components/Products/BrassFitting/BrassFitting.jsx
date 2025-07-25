@@ -34,13 +34,13 @@ const BrassFittingCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2022/6/DE/DF/EI/124968442/14-500x500.PNG",
       ],
       specifications: {
-        Thickness: "2 mm",
-        Color: "Golden",
-        Material: "Brass",
-        Shape: "T",
+        Thickness: "0.2 mm to 5 mm",
+        Color: "Golden Reddish",
+        Material: "Brass–Copper Alloy",
+        Shape: "Round Wire ",
       },
       description:
-        "High-quality brass copper wire with excellent conductivity and corrosion resistance. Made from premium grade brass with superior electrical properties. Perfect for electrical applications, jewelry making, and industrial use.",
+        "Brass Copper Wire offered by Rajlakshmi Metal is a high-performance alloy wire made from a precise blend of copper and zinc. This wire is widely used in electrical engineering, electronics, construction, and manufacturing industries due to its excellent conductivity, corrosion resistance, and tensile strength. It is ideal for grounding, winding, earthing, connector making, and general-purpose electrical applications. The wire is highly ductile, making it suitable for precision coiling, weaving, or braiding. Its smooth surface finish and uniform diameter ensure reliable performance in automated assembly systems. We supply Brass Copper Wire in various gauges, spools, and custom lengths based on client specifications.",
       features: [
         "High Conductivity",
         "Corrosion Resistant",
@@ -57,19 +57,14 @@ const BrassFittingCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2022/6/BB/AQ/KE/124968442/2-500x500.PNG",
       ],
       specifications: {
-        Size: "15 inch 20 kg",
-        Color: "Golden",
+        Size: " ½” to 2” BSP/NPT Thread Sizes",
+        Color: "Yellow-Golden",
         Material: "Brass",
-        Brand: "Agarwal",
+        Thickness: "2 mm – 6 mm",
       },
       description:
-        "Premium brass sanitary pipe fittings for plumbing and water supply systems. Lead-free construction with antimicrobial properties. Designed for long-lasting performance in residential and commercial applications.",
-      features: [
-        "Lead-Free",
-        "Antimicrobial",
-        "Easy Installation",
-        "Leak-Proof",
-      ],
+        "Brass Sanitary Pipe Fittings from Rajlakshmi Metal are engineered for hygienic plumbing and water supply systems. These fittings are manufactured using high-grade brass, ensuring strength, rust resistance, and longevity in both hot and cold water applications. Commonly used in bathrooms, kitchens, and industrial fluid systems, these fittings come in various forms including elbows, tees, unions, reducers, and nipples. The antimicrobial property of brass makes it ideal for sanitary installations where hygiene is critical. Each fitting is pressure-tested and manufactured to standard pipe thread sizes for seamless integration into any pipeline or plumbing network.",
+      features: ["Hygienic", "Leak-proof", "Heat-resistant", "Long-lasting"],
     },
     {
       id: 3,
@@ -81,13 +76,13 @@ const BrassFittingCategoryPage = () => {
       ],
       specifications: {
         Color: "Golden",
-        Material: "Brass",
-        Shape: "Customised",
+        Material: "Brass (High-Copper Alloy)",
+        Shape: "Round",
         Thickness: "5mm to 20mm",
-        Standard: "ANSI B16.5",
+        Size: `½” to 4” diameter `,
       },
       description:
-        "Precision-engineered round brass flanges for industrial pipe connections. Manufactured to international standards with excellent dimensional accuracy. Suitable for high-pressure applications.",
+        "Our Round Brass Flange is a precision-engineered component used for connecting pipes, valves, and pumps in mechanical and plumbing systems. Manufactured from high-strength brass alloy, it offers exceptional durability, leak resistance, and corrosion protection. These flanges are machined to tight tolerances to ensure a perfect seal in fluid and gas systems. Their round shape provides uniform pressure distribution, making them ideal for both low and high-pressure environments. Suitable for industrial, commercial, and residential installations, the Round Brass Flange from Rajlakshmi Metal is a reliable choice for contractors and engineers seeking long-lasting pipe connections.",
       features: [
         "Precision Machined",
         "High Strength",
@@ -104,21 +99,16 @@ const BrassFittingCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2022/6/UI/QN/MI/124968442/3-500x500.PNG",
       ],
       specifications: {
-        Thickness: "2mm",
-        Color: "Copper",
+        Thickness: "1mm - 4mm",
+        Color: "Brass Yellow",
         Material: "Brass",
-        Shape: "Rectangular",
+        Shape: "Conical / Cylindrical",
         "Finishing Type": "Polished",
         "Usage/Application": "Hardware Fitting",
       },
       description:
-        "Versatile brass nozzles for various industrial and domestic applications. Adjustable flow control with leak-proof design. Perfect for water systems, irrigation, and industrial spraying applications.",
-      features: [
-        "Adjustable Flow",
-        "Leak-Proof",
-        "Easy Grip",
-        "Multiple Patterns",
-      ],
+        "The Brass Nozzle offered by Rajlakshmi Metal is a high-precision, corrosion-resistant nozzle ideal for water systems, gas outlets, irrigation equipment, and industrial spraying applications. Designed for optimal flow control and uniform spray distribution, our brass nozzles provide durability even in high-pressure or continuous-use environments. They feature threaded or push-fit designs for easy installation and can be used across a variety of sectors—from agriculture and fire safety to HVAC and manufacturing. With excellent thermal resistance, brass nozzles perform consistently under fluctuating temperatures and pressures.",
+      features: ["Adjustable", "Durable", "Heat-resistant", "Efficient"],
     },
   ];
 
@@ -256,9 +246,11 @@ const BrassFittingCategoryPage = () => {
                       <span className="text-gray-500">
                         /{currentProduct.unit}
                       </span>
-                      <button className="text-blue-600 hover:text-blue-800 font-medium">
-                        Get Latest Price
-                      </button>
+                      <a href="tel:8904162990">
+                        <button className="text-blue-600 hover:text-blue-800 font-medium cursor-pointer">
+                          Get Latest Price
+                        </button>
+                      </a>
                     </div>
                   </div>
 

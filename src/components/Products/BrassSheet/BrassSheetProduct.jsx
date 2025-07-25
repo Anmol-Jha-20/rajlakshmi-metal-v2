@@ -44,7 +44,7 @@ const BrassSheetCategoryPage = () => {
         Shape: "T",
       },
       description:
-        "It is made from Stainless Steel colour sheet... Strip cutted from the sheet as per size of T. Then it is grooved at Our factory with msi v grooved technology to get sharp flat edges..we do 5 grooves To give luxurious look..Then it is carefully bend with msi Cnc Bending machine.",
+        "Brass T Patti is a specialized brass profile used extensively in architectural and interior design applications for decorative joints, corner trims, and edge protection. It is manufactured using premium-grade brass and precisely grooved using V-groove and CNC bending technology to achieve clean edges and a luxurious look. The T-shape provides strength, aesthetic separation between materials (e.g., tiles or wood), and seamless transitions across surfaces. Known for its high conductivity and resistance to tarnish and corrosion, Brass T Patti is ideal for high-end furniture, partitions, skirting, and metallic finishes in modern interiors. Its excellent machinability allows for precise fabrication and installation.",
       features: [
         "High Conductivity",
         "Corrosion Resistant",
@@ -69,9 +69,10 @@ const BrassSheetCategoryPage = () => {
         Color: "Golden",
         Material: "Brass",
         Brand: "Agarwal",
+        Thickness: "0.5 mm – 2 mm",
       },
       description:
-        "It possesses excellent mechanical properties, including high tensile strength and good corrosion resistance in addition to a distinctive golden color. It can withstand exposure to environmental conditions without degradation, making it a reliable choice for both indoor and outdoor applications.",
+        "Brass Sheet Striped Coils are continuous rolled brass sheets available in coil form with precise thickness and width, tailored for mass production and industrial applications. These coils combine high tensile strength with flexibility, making them suitable for stamping, forming, deep drawing, and fabrication in electronics, plumbing, and automotive sectors. The striped surface texture not only adds visual appeal but also enhances grip and adhesion when used in layered assemblies. Known for their anti-corrosive and antimicrobial properties, brass striped coils offer excellent thermal and electrical conductivity. Their consistent quality, lead-free composition, and ease of machining make them a trusted material in precision manufacturing.",
       features: [
         "Lead-Free",
         "Antimicrobial",
@@ -94,12 +95,12 @@ const BrassSheetCategoryPage = () => {
       specifications: {
         Color: "Golden",
         Material: "Brass",
-        Shape: "Customised",
+        Shape: "Flat stripe",
         Thickness: "5mm to 20mm",
         Standard: "ANSI B16.5",
       },
       description:
-        "Precision-engineered round brass flanges for industrial pipe connections. Manufactured to international standards with excellent dimensional accuracy. Suitable for high-pressure applications.",
+        "Brass Stripe Patti is a flat, elongated strip of brass used in both functional and decorative applications. These strips are crafted with precision and are highly durable, offering excellent resistance to wear, corrosion, and weathering. Their consistent golden finish adds a premium look, making them popular in architectural trims, cabinet edges, decorative panels, and metal inlays. Industrially, they are used in grounding, electrical terminals, and mechanical fasteners. The material’s excellent machinability and strength-to-weight ratio make Brass Stripe Patti a go-to option for manufacturers and artisans alike. It is also customizable in terms of thickness, width, and finish to suit specific design needs.",
       features: [
         "Precision Machined",
         "High Strength",
@@ -121,10 +122,9 @@ const BrassSheetCategoryPage = () => {
         Material: "Brass",
         Shape: "Rectangular",
         "Finishing Type": "Polished",
-        "Usage/Application": "Hardware Fitting",
       },
       description:
-        "Versatile brass nozzles for various industrial and domestic applications. Adjustable flow control with leak-proof design. Perfect for water systems, irrigation, and industrial spraying applications.",
+        "Rectangular Brass Sheets are flat metal sheets shaped in a rectangular form, designed for use in hardware fittings, industrial fabrication, and decorative metalwork. Known for their superior malleability and corrosion resistance, these sheets are easy to cut, drill, solder, and polish. The polished surface gives an attractive appearance while the robust brass material provides long-lasting performance even under frequent handling or exposure to moisture. These sheets are widely used in nameplates, signage, electrical contacts, DIY crafts, and custom machine parts. With high electrical and thermal conductivity, they are also suitable for electronic and plumbing applications.",
       features: [
         "Adjustable Flow",
         "Leak-Proof",

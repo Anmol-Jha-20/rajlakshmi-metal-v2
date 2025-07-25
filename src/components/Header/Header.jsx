@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../assets/RajlakshmiLogo.png";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +60,7 @@ function Header() {
             <img
               src={Logo}
               className="h-12 sm:h-16 md:h-20 lg:h-24 object-contain"
-              alt=""
+              alt="Logo"
             />
           </div>
 
@@ -71,12 +72,13 @@ function Header() {
             >
               Home
             </Link>
-            <a
-              href="#about"
+            <HashLink
+              smooth
+              to="/#about"
               className="text-white hover:text-blue-600 transition-colors font-medium"
             >
               About
-            </a>
+            </HashLink>
 
             <div
               className="relative"
@@ -169,7 +171,7 @@ function Header() {
               Contact
             </Link>
           </nav>
-          <button className="hidden md:block bg-[#D93361] text-white px-4 py-2 rounded hover:bg-gray-700 transition-colors text-sm cursor-pointer">
+          <button className="hidden md:block bg-[#D93361] text-white px-4 py-2 rounded transition-colors text-sm cursor-pointer">
             Download Catalogue
           </button>
 
@@ -197,13 +199,14 @@ function Header() {
               >
                 Home
               </Link>
-              <a
-                href="#about"
+              <HashLink
+                smooth
+                to="/#about"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-white hover:text-blue-600 transition-colors font-medium"
               >
                 About
-              </a>
+              </HashLink>
               <div>
                 <button
                   onClick={() => setShowProductDropdown(!showProductDropdown)}

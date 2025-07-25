@@ -17,6 +17,7 @@ import {
   Minus,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../ScrollToTop.jsx";
 
 const BrassPipeCategoryPage = () => {
   const [selectedProduct, setSelectedProduct] = useState(0);
@@ -36,17 +37,18 @@ const BrassPipeCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2022/6/TY/IB/BJ/124968442/brass-pipe1-500x500.jpg",
       ],
       specifications: {
-        Thickness: "2 mm",
-        Color: "Golden",
+        Thickness: "1 mm – 5 mm",
+        Color: "Golden-yellow",
         Material: "Brass",
-        Shape: "T",
+        Shape: "Round",
+        Size: `Outer diameter 1/4" to 4"`,
       },
       description:
-        "[Durable Brass Tube] - Made of brass material, which is lightweight, with high strength, good thermal conductivity, corrosion resistance, high-temperature resistance, and can be used on various occasions.",
+        "Round Brass Pipes are precision-engineered cylindrical tubes made from high-quality brass alloy, widely recognized for their exceptional durability, corrosion resistance, and workability. These pipes are used in a diverse range of industries including plumbing, electrical systems, musical instruments, architecture, and automotive components. The round design allows smooth fluid flow, making it ideal for gas and liquid transport in both low- and high-pressure environments. Brass, being a non-sparking and antimicrobial metal, makes these pipes safe for potable water systems and hygienic applications. Their polished finish and ease of machining also make them suitable for ornamental and structural purposes.",
       features: [
         "High Conductivity",
         "Corrosion Resistant",
-        "Flexible",
+        "Conductive",
         "Durable",
       ],
     },
@@ -62,19 +64,14 @@ const BrassPipeCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2023/3/295346735/TD/EC/SW/124968442/brass-square-pipe-500x500.jpeg",
       ],
       specifications: {
-        Size: "15 inch 20 kg",
-        Color: "Golden",
+        Thickness: "1 mm – 3 mm",
+        Color: "Bright Golden",
         Material: "Brass",
-        Brand: "Agarwal",
+        Size: `1/2” × 1/2” to 2” × 2”`,
       },
       description:
-        "Premium brass sanitary pipe fittings for plumbing and water supply systems. Lead-free construction with antimicrobial properties. Designed for long-lasting performance in residential and commercial applications.",
-      features: [
-        "Lead-Free",
-        "Antimicrobial",
-        "Easy Installation",
-        "Leak-Proof",
-      ],
+        "Brass Square Pipes are hollow square-sectioned tubes made from solid brass, offering a balance of strength, corrosion resistance, and aesthetic appeal. They are especially favored in decorative construction, architectural detailing, and custom fabrication work. The uniform square profile gives strong structural support while maintaining a modern and elegant appearance. These pipes are suitable for frames, grills, railing systems, and artistic installations. Their anti-corrosive and antimicrobial properties make them ideal for both interior and exterior applications. Easily welded, polished, and machined, brass square pipes provide flexibility for a variety of industrial and design needs.",
+      features: ["Strong", "Elegant", "Versatile", "Weldable"],
     },
     {
       id: 3,
@@ -85,14 +82,14 @@ const BrassPipeCategoryPage = () => {
         "https://5.imimg.com/data5/SELLER/Default/2022/6/RS/NZ/WB/124968442/8-500x500.PNG",
       ],
       specifications: {
-        Color: "Golden",
+        Color: "Yellow-gold",
         Material: "Brass",
-        Shape: "Customised",
-        Thickness: "5mm to 20mm",
-        Standard: "ANSI B16.5",
+        Shape: "Rectangular",
+        Thickness: "1.5 mm – 4 mm",
+        Size: `1" × 2" to 3" × 6"`,
       },
       description:
-        "Precision-engineered round brass flanges for industrial pipe connections. Manufactured to international standards with excellent dimensional accuracy. Suitable for high-pressure applications.",
+        "Brass Rectangular Pipes are flat-edged, hollow brass profiles designed for structural, mechanical, and decorative purposes. These pipes combine the robustness of brass with a space-efficient, sleek rectangular shape. Ideal for architectural facades, support structures, furniture framing, and equipment housing, they offer a sophisticated look and outstanding resistance to corrosion, moisture, and wear. Their smooth surface and easy-to-machine nature make them a top choice for custom fabrication. The antimicrobial property of brass adds hygiene benefits, especially in environments like hospitals, kitchens, and public spaces.",
       features: [
         "Precision Machined",
         "High Strength",
@@ -115,10 +112,9 @@ const BrassPipeCategoryPage = () => {
         Material: "Brass",
         Shape: "Rectangular",
         "Finishing Type": "Polished",
-        "Usage/Application": "Hardware Fitting",
       },
       description:
-        "Versatile brass nozzles for various industrial and domestic applications. Adjustable flow control with leak-proof design. Perfect for water systems, irrigation, and industrial spraying applications.",
+        "Copper Pipes are widely used in plumbing, HVAC, refrigeration, and medical gas systems due to their superior thermal and electrical conductivity, corrosion resistance, and durability. Available in rigid and flexible forms, copper pipes provide leak-proof, long-lasting performance. Their natural antimicrobial properties make them ideal for carrying drinking water in residential and commercial buildings. With excellent resistance to high temperatures and pressure, copper pipes are reliable in both cold and hot water supply lines. They are also environmentally friendly as copper is 100% recyclable. Installation is straightforward due to their formability and compatibility with soldering, brazing, or press-fit fittings.",
       features: [
         "Adjustable Flow",
         "Leak-Proof",
@@ -143,6 +139,7 @@ const BrassPipeCategoryPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <ScrollToTop />
       {/* Breadcrumb */}
       <div className="bg-white py-4 border-b">
         <div className="container mx-auto px-4">
