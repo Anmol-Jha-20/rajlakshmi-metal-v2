@@ -42,7 +42,7 @@ const ContactPage = () => {
       }}
     >
       <div className="flex items-center mb-6">
-        <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-4 rounded-full">
+        <div className="bg-[#D93361] p-4 rounded-full">
           <Icon className="w-6 h-6 text-white" />
         </div>
         <h3 className="text-xl font-bold text-gray-800 ml-4">{title}</h3>
@@ -272,7 +272,7 @@ const ContactPage = () => {
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 cursor-pointer px-6 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 flex items-center justify-center"
+                className="w-full bg-[#D93361] text-white py-4 cursor-pointer px-6 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 flex items-center justify-center"
               >
                 <Send className="w-5 h-5 mr-2" />
                 Send Message
@@ -305,7 +305,7 @@ const ContactPage = () => {
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:bg-cyan-600 text-white px-4 py-2 rounded-lg transition-colors duration-300 font-medium"
+                className="inline-flex items-center space-x-2 bg-[#D93361] hover:bg-cyan-600 text-white px-4 py-2 rounded-lg transition-colors duration-300 font-medium"
               >
                 <MapPin className="w-4 h-4" />
                 <span>Open in Google Maps</span>

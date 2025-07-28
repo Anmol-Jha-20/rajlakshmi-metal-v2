@@ -581,7 +581,7 @@ const RajlakshmiMetal = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Shield size={16} className="text-blue-600" />
+                    <Shield size={16} className="text-[#D93361]" />
                   </div>
                   <span className="text-gray-700">
                     Quality Assured Products
@@ -589,7 +589,7 @@ const RajlakshmiMetal = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Truck size={16} className="text-blue-600" />
+                    <Truck size={16} className="text-[#D93361]" />
                   </div>
                   <span className="text-gray-700">
                     Fast & Reliable Delivery
@@ -597,7 +597,7 @@ const RajlakshmiMetal = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Award size={16} className="text-blue-600" />
+                    <Award size={16} className="text-[#D93361]" />
                   </div>
                   <span className="text-gray-700">Industry Expertise</span>
                 </div>
@@ -635,7 +635,7 @@ const RajlakshmiMetal = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#D93361] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone size={24} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">Call Us</h3>
@@ -643,7 +643,7 @@ const RajlakshmiMetal = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#D93361] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail size={24} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
@@ -653,7 +653,7 @@ const RajlakshmiMetal = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#D93361] rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin size={24} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">

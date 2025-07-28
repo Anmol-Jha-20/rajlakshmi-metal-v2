@@ -68,14 +68,14 @@ function Header() {
           <nav className="hidden md:flex space-x-16">
             <Link
               to={"/"}
-              className="text-white hover:text-blue-600 transition-colors font-medium"
+              className="text-white hover:text-[#D93361] transition-colors font-medium"
             >
               Home
             </Link>
             <HashLink
               smooth
               to="/#about"
-              className="text-white hover:text-blue-600 transition-colors font-medium"
+              className="text-white hover:text-[#D93361] transition-colors font-medium"
             >
               About
             </HashLink>
@@ -90,7 +90,7 @@ function Header() {
             >
               <a
                 href="#products"
-                className="text-white hover:text-blue-600 transition-colors font-medium"
+                className="text-white hover:text-[#D93361] transition-colors font-medium"
               >
                 Products
               </a>
@@ -107,7 +107,7 @@ function Header() {
                       >
                         <button
                           onClick={() => navigate(category.link)}
-                          className="block w-full px-4 py-3 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-purple-50 hover:text-blue-600 transition-all font-medium border-b border-gray-100 last:border-b-0"
+                          className="block w-full px-4 py-3 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-purple-50 hover:text-[#D93361] transition-all font-medium border-b border-gray-100 last:border-b-0"
                         >
                           <div className="flex items-center justify-between">
                             <span>{category.name}</span>
@@ -133,7 +133,7 @@ function Header() {
                             <div className="absolute top-0 left-full ml-2 bg-white border border-gray-200 rounded-xl shadow-2xl z-50 min-w-[250px]">
                               <div className="py-2">
                                 {/* <div className="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 border-b border-gray-100">
-                                  <h4 className="font-semibold text-blue-600 text-sm">
+                                  <h4 className="font-semibold text-[#D93361] text-sm">
                                     {category.name}
                                   </h4>
                                 </div> */}
@@ -142,7 +142,7 @@ function Header() {
                                     <a
                                       key={productIndex}
                                       href="#products"
-                                      className="block px-4 py-2 text-gray-600 hover:bg-gray-50 hover:text-blue-600 transition-all text-sm border-b border-gray-50 last:border-b-0"
+                                      className="block px-4 py-2 text-gray-600 hover:bg-gray-50 hover:text-[#D93361] transition-all text-sm border-b border-gray-50 last:border-b-0"
                                     >
                                       {product}
                                     </a>
@@ -160,13 +160,13 @@ function Header() {
 
             <Link
               to={"/gallery"}
-              className="text-white hover:text-blue-600 transition-colors font-medium"
+              className="text-white hover:text-[#D93361] transition-colors font-medium"
             >
               Gallery
             </Link>
             <Link
               to={"/contact-us"}
-              className="text-white hover:text-blue-600 transition-colors font-medium"
+              className="text-white hover:text-[#D93361] transition-colors font-medium"
             >
               Contact
             </Link>
@@ -195,7 +195,7 @@ function Header() {
               <Link
                 to={"/"}
                 onClick={() => setIsMenuOpen(false)}
-                className="text-white hover:text-blue-600 transition-colors font-medium"
+                className="text-white hover:text-[#D93361] transition-colors font-medium"
               >
                 Home
               </Link>
@@ -203,14 +203,14 @@ function Header() {
                 smooth
                 to="/#about"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-white hover:text-blue-600 transition-colors font-medium"
+                className="text-white hover:text-[#D93361] transition-colors font-medium"
               >
                 About
               </HashLink>
               <div>
                 <button
                   onClick={() => setShowProductDropdown(!showProductDropdown)}
-                  className="text-white hover:text-blue-600 transition-colors font-medium flex items-center justify-between w-full"
+                  className="text-white hover:text-[#D93361] transition-colors font-medium flex items-center justify-between w-full"
                 >
                   <span>Products</span>
                   <svg
@@ -242,7 +242,7 @@ function Header() {
                             navigate(category.link);
                             setIsMenuOpen(false);
                           }}
-                          className="text-white hover:text-blue-600 transition-colors text-sm flex items-center justify-between w-full py-1"
+                          className="text-white hover:text-[#D93361] transition-colors text-sm flex items-center justify-between w-full py-1"
                         >
                           <span>{category.name}</span>
                           {/* <svg
@@ -268,7 +268,7 @@ function Header() {
                               <a
                                 key={productIndex}
                                 href="#products"
-                                className="block text-gray-500 hover:text-blue-600 transition-colors text-xs py-1"
+                                className="block text-gray-500 hover:text-[#D93361] transition-colors text-xs py-1"
                               >
                                 {product}
                               </a>
@@ -283,14 +283,14 @@ function Header() {
               <Link
                 to={"/gallery"}
                 onClick={() => setIsMenuOpen(false)}
-                className="text-white hover:text-blue-600 transition-colors font-medium"
+                className="text-white hover:text-[#D93361] transition-colors font-medium"
               >
                 Gallery
               </Link>
               <Link
                 to={"/contact-us"}
                 onClick={() => setIsMenuOpen(false)}
-                className="text-white hover:text-blue-600 transition-colors font-medium"
+                className="text-white hover:text-[#D93361] transition-colors font-medium"
               >
                 Contact
               </Link>
